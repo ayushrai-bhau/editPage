@@ -1,10 +1,11 @@
 import Header from "./component/Header";
 import Center from "./component/Center";
+import Wave from "./assets/wave.svg"
 
 function App() {
   return (
     <>
-      <img src="src\assets\wave.svg" alt="wave" className="wave" />
+      <img src={Wave} alt="wave" className="wave" />
 
       <div className="app">
         <Header />
